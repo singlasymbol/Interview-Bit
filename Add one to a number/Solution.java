@@ -1,4 +1,12 @@
 public class Solution {
+	
+	// testcases to lookout for - when the number has zeroes initially
+	// input - 0,3,4,2,5,6
+	// output - 3,4,2,5,7 not 0,3,4,2,5,7
+	
+	//when a number is to be added 
+	// input -  9, 9, 9 ,9 ,9
+	//output - 1,0 ,0 ,0 ,0 ,0 not 0 ,0 ,0 ,0 ,0
 	public ArrayList<Integer> plusOne(ArrayList<Integer> a) {
 	    int i,ret, carry = 1, sum = 0,remainder =0;
 	   Collections.reverse(a);
